@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`dotk hello [FILE]`](#dotk-hello-file)
 * [`dotk help [COMMAND]`](#dotk-help-command)
+* [`dotk init [FILE]`](#dotk-init-file)
 
 ## `dotk hello [FILE]`
 
@@ -67,4 +68,20 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3/src/commands/help.ts)_
+
+## `dotk init [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ dotk init [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/init.ts](https://github.com/marlonkjoseph/dotk-cli/blob/v0.0.0/src/commands/init.ts)_
 <!-- commandsstop -->
