@@ -28,29 +28,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`dotk hello [FILE]`](#dotk-hello-file)
 * [`dotk help [COMMAND]`](#dotk-help-command)
-* [`dotk init [FILE]`](#dotk-init-file)
-
-## `dotk hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ dotk hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ dotk hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/marlonkjoseph/dotk-cli/blob/v0.0.0/src/commands/hello.ts)_
+* [`dotk init`](#dotk-init)
 
 ## `dotk help [COMMAND]`
 
@@ -69,18 +48,17 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3/src/commands/help.ts)_
 
-## `dotk init [FILE]`
+## `dotk init`
 
 describe the command here
 
 ```
 USAGE
-  $ dotk init [FILE]
+  $ dotk init
 
 OPTIONS
   -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help   show CLI help
 ```
 
 _See code: [src/commands/init.ts](https://github.com/marlonkjoseph/dotk-cli/blob/v0.0.0/src/commands/init.ts)_
